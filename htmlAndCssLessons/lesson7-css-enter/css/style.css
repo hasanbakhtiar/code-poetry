@@ -1,0 +1,36 @@
+h1{
+    background-color: black;
+    color: brown;
+    text-align: center;
+}
+
+
+/* p{ */
+    /* color: green;
+    background-color: bisque;
+    font-size: 30px; */
+    /* font-weight: 1000;
+    this is comment
+    */
+    /* font-style: italic; */
+
+    /* font-family: 'Courier New', Courier, monospace; */
+
+    /* line-height: 100px;
+    word-spacing: 40px;
+    letter-spacing: 30px; */
+    /* text-decoration: underline; */
+/* } */
+
+/* li{
+    list-style: decimal;
+} */
+
+
+/* li:nth-child(3n-2){
+    color: red;
+} */
+
+p{
+    text-align: end;
+}
