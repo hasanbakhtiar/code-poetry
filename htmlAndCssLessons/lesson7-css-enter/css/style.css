@@ -1,9 +1,26 @@
-h1{
+/* h1{
     background-color: black;
     color: brown;
     text-align: center;
-}
+} */
 
+/* img{ */
+    /* border-color: black;
+    border-width: 2px;
+    border-style: solid; */
+
+    /* border-left: 2px solid red;
+    border-right: 2px double purple;
+    border-bottom: 4px dotted yellow;
+    border-top: 4px dotted green; */
+
+/* } */
+
+
+/* .myinfo{
+    color: red;
+    background-color: black;
+} */
 
 /* p{ */
     /* color: green;
@@ -29,8 +46,24 @@ h1{
 
 /* li:nth-child(3n-2){
     color: red;
-} */
+}    */
 
-p{
-    text-align: end;
+
+
+/*
+hex = 16 say sistemine esaslanir # yazaraq baslayiriq min3 max8 reqem ifade edile biler
+0123456789abcdef
+*/
+
+/*
+rgb = red green blue min 0 max 255
+rgba
+hsl
+hsla
+hwb 
+*/
+
+h1{
+    color: hwb(216 10% 61% / 0.2);
 }
+
