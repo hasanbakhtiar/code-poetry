@@ -1,0 +1,48 @@
+/* html{
+    font-size: 10px;
+}
+
+
+ul{
+    font-size: 20px;
+} */
+
+/* .box{ */
+    /* display: inline-block;
+    width: 32%;
+    height: 70vh;
+    border: 2px solid #000;
+    background-color: grey; */
+    /* padding:10px 100px 50px 20px ; */
+    /* margin:10px 100px 50px 20px ; */
+/* } */
+
+
+/* li{
+    font-size: 2rem;
+} */
+
+main{
+    height: 200vh;
+}
+
+
+section{
+    width: 100%;
+    height: 60vh;
+    border: 2px solid #000;
+    /* background-image: url('https://wigmoretrading.com/wp-content/uploads/2021/11/FLOWERS-AND-PLANTS.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+}
+
+
+.box-one p{
+    color: red;
+}
+
+.box-two p{
+    color: green;
+}
