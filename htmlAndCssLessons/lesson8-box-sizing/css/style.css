@@ -38,11 +38,70 @@ section{
     /* background-repeat: no-repeat; */
 }
 
-
+/* 
 .box-one p{
     color: red;
 }
 
 .box-two p{
     color: green;
-}
+} */
+
+
+/* .con-box {
+    display: inline-block;
+  }
+  .box1,
+  .box2 {
+    width: 100px;
+    height: 100px;
+  }
+  .box1 {
+    background-color: green;
+  
+  
+  }
+  .box2 {
+    background-color: blue;
+  }
+  .box3 {
+  
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: inline-block;
+  } */
+
+
+
+
+
+
+
+
+  
+  .main{
+    display: inline-block;
+  }
+  
+  .box1,.box3{
+    width: 100px;
+    height: 100px;
+    
+  }
+
+  .box1{
+    background-color: blue;
+  }
+
+  .box3{
+    background-color: green;
+  }
+
+
+  .box2{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
