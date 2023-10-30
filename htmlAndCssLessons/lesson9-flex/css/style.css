@@ -1,17 +1,54 @@
-.con{
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+}
+main .box {
+  height: 50px;
+  background-color: orange;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .box:nth-child(1) {
+  width: 100%;
+}
+main .box:nth-child(2),main .box:nth-child(3),main .box:nth-child(4) {
+  width: 30%;
+}
+main .box:nth-child(5),main .box:nth-child(6) {
+  width: 47%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .con{
   width: 70%;
   height: 70vh;
   border: 1px solid #000;
-  display: flex;
-  /* flex-direction: row; */
-  /* align-items: start; */
-  /* justify-content: center; */
-  /* flex-wrap: nowrap; */
- flex-flow: row wrap ;
-   /* align-content: space-around; */
-  gap: 10px;
+  display: flex; */
+/* flex-direction: row; */
+/* align-items: start; */
+/* justify-content: center; */
+/* flex-wrap: nowrap; */
+/* flex-flow: row wrap ; */
+/* align-content: space-around; */
+/* gap: 10px; */
 
-}
+/* } */
 /* 
 .con .box{
   margin: 10px;
@@ -22,12 +59,9 @@
   font-size: 40px;
 } */
 
-
-
 /* .box:nth-child(3){
   align-self: end;
 } */
-
 
 /* .box:nth-child(1){
   flex-shrink: 2;
@@ -45,8 +79,6 @@
 .box:nth-child(5){
   flex-shrink: 1;
 } */
-
-
 
 /* img{
   float: left;
