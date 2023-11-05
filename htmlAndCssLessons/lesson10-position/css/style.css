@@ -1,0 +1,66 @@
+main {
+  width: 40%;
+  height: auto;
+  border: 2px dashed #000;
+  display: flex;
+}
+main .left-box,
+main .right-box {
+  width: 50%;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.grinch,
+main .left-box .box,
+main .right-box .box {
+  width: 50%;
+  height: 100px;
+}
+.box {
+  background-color: red;
+}
+.grinch {
+  background-color: green;
+  position: absolute;
+  z-index: 9;
+  right: -20px;
+  top: 30px;
+}
+
+/* header{
+  position: fixed;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: bisque;
+  z-index: 12;
+} */
+
+/* p{
+  position: relative;
+  z-index: 3;
+} */
+
+/* .con-box{
+  width: 90%;
+  height: 70vh;
+  background-color: black;
+}
+.con-box .main-box{
+  position: relative;
+  width: 50%;
+  height: 50vh;
+  background-color: green;
+}
+
+.con-box .main-box .box{
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+} */

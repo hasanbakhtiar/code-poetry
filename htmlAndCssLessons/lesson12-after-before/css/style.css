@@ -1,0 +1,38 @@
+@import url('reset.css');
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  position: relative;
+  width: 100px;
+  height: 400px;
+  background-color: black;
+  transition: 1s;
+  /* border-bottom-right-radius:50% ; */
+  /* border-bottom-left-radius:50% ; */
+
+}
+
+.box::after{
+  transition: 1s;
+  top: 0;
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 0px;
+  background-color: red;
+}
+
+.box:hover::after{
+  height: 400px;
+}
+
+/* h1::after{
+  content: "update";
+} */
