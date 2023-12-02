@@ -1,0 +1,27 @@
+/* body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    position: relative;
+    overflow: hidden;
+}
+button{
+    position: absolute;
+    top: 0;
+}
+.img{
+    background-image: url('https://pbs.twimg.com/profile_images/840912251091574784/YVgGHjcd_400x400.jpg');
+    height: 300px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.img:hover{
+    transform: scale(2);
+} */
