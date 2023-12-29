@@ -1,0 +1,29 @@
+/* .test{
+    color : red;
+    background-color : green;
+    transition : 1s;
+    font-size : 40px;
+    display: none;
+} */
+body{
+    overflow-x: hidden;
+}
+.hero{
+    position: relative;
+}
+
+menu{
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+    background-color: bisque;
+    position: absolute;
+    right: 0;
+}
+
+.hide{
+    transform: translateX(500px);
+}
