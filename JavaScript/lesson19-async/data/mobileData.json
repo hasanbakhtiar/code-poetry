@@ -1,0 +1,32 @@
+[
+    {
+        "title":"Samsung S24",
+        "price":3000,
+        "newDevice":true,
+        "photo":"https://static1.xdaimages.com/wordpress/wp-content/uploads/wm/2024/01/samsung-galaxy-s24-ultra-15.jpg"
+    },
+    {
+        "title":"Xiaomi 14",
+        "price":2000,
+        "newDevice":true,
+        "photo":"https://specifications-pro.com/wp-content/uploads/2023/04/Xiaomi-14-Pro.png"
+    },
+    {
+        "title":"Samsung S24",
+        "price":3000,
+        "newDevice":true,
+        "photo":"https://static1.xdaimages.com/wordpress/wp-content/uploads/wm/2024/01/samsung-galaxy-s24-ultra-15.jpg"
+    },
+    {
+        "title":"Samsung S24",
+        "price":3000,
+        "newDevice":true,
+        "photo":"https://static1.xdaimages.com/wordpress/wp-content/uploads/wm/2024/01/samsung-galaxy-s24-ultra-15.jpg"
+    },
+    {
+        "title":"Samsung S24",
+        "price":3000,
+        "newDevice":true,
+        "photo":"https://static1.xdaimages.com/wordpress/wp-content/uploads/wm/2024/01/samsung-galaxy-s24-ultra-15.jpg"
+    }
+]
