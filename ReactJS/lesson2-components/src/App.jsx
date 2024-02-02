@@ -1,15 +1,18 @@
-import { Component } from 'react';
-import List from './List';
+import React, { Component } from 'react'
+import Header from './components/Header'
+import Products from './components/Products'
 
 class App extends Component {
     render() {
         return (
             <>
-                <h1>This app for Monster</h1>
-                <List />
+             <Header />   
+            <Products />
             </>
+
+
         )
     }
 }
 
-export default App;
+export default App
