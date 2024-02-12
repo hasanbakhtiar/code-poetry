@@ -9,7 +9,7 @@ import ProductFilter from './example/ProductFilter';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <ProductFilter />
+   <App />
   </React.StrictMode>
 );
 

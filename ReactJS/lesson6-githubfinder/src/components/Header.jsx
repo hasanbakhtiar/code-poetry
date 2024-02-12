@@ -11,7 +11,7 @@ const Header = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
         <li className="nav-item">
-        <a className="navbar-brand" href="https://github.com" target='_blank' ><i class="fa-brands fa-github"></i> Github Finder</a>
+        <a className="navbar-brand" href="https://github.com" target='_blank' ><i className="fa-brands fa-github"></i> Github Finder</a>
         </li>
       
       </ul>
