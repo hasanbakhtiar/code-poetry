@@ -1,0 +1,30 @@
+
+@import "mixin";
+@import "variables";
+
+.main-box{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    @include ortalaQardash();
+    .con-box{
+        width: 300px;
+        height: 300px;
+        background-color: $niko;
+    @include ortalaQardash();
+        
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    }
+}
+
+
+@for $i from 1 through 13 {
+  li:nth-child(3n + #{$i}) {
+    background-color: lighten(rgb(0, 102, 27), $i * 5%);
+  }
+}
+
