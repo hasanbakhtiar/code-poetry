@@ -1,0 +1,25 @@
+.blog{
+    .mycard{
+        height: 500px;
+        .card{
+            transition: .5s;
+            height: 400px;
+            overflow: hidden;
+            .btn{
+                transition: .5s;
+                transform: translateY(100px);
+    
+            }
+            
+            &:hover{
+                height: 500px;
+                
+                .btn{
+                    transform: translateY(-10px);
+                }
+            }
+        
+        }
+    }
+
+}
